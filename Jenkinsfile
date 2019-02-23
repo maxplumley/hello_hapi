@@ -16,6 +16,7 @@ pipeline {
                 sh 'npm install'
             }
         }
+        // a new line for pushing a change
         // stage('Test') {
         //     steps {
         //         echo 'Testing...'
